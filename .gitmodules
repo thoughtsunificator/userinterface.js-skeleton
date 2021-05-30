@@ -1,0 +1,3 @@
+[submodule "lib/userinterface.js"]
+	path = lib/userinterface.js
+	url = https://github.com/thoughtsunificator/userinterface.js.git

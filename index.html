@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>userinterface.js app</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="./resource/app.css">
+	<script src="./lib/userinterface.js/src/userinterface.js"></script>
+	<script>
+		namespace = {}
+	</script>
+	<script type="text/javascript" src="./src/object/app.js"></script>
+	<script type="text/javascript" src="./src/userinterface/app.js"></script>
+	<script type="text/javascript" src="./src/userinterface/app.binding.js"></script>
+	<script>
+		window.addEventListener("load", () => {
+			UserInterface.runModel("app", { parentNode: document.body })
+		})
+	</script>
+</head>
+<body>
+	<noscript>
+		This feature requires JavaScript to be enabled.
+	</noscript>
+</body>
+</html>
